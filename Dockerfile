@@ -1,4 +1,4 @@
-FROM openjdk:8-jre-slim
+FROM adoptopenjdk/openjdk12:x86_64-ubuntu-jdk-12.0.2_10-slim
 ENV WAVES_VERSION="latest"
 ENV WAVES_LOG_LEVEL="DEBUG"
 ENV WAVES_HEAP_SIZE="2g"
